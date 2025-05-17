@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>eMART</title>
+  </head>
+  <body>
+    <!--==Navigation================================-->
+    <nav class="navigation">
+      <!--logo-------->
+      <a href="index.html" class="logo"> <span>e</span>mart</a>
+      <!--menu-btn---->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-------->
+      <ul class="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#popular-bundle-pack">Our Packages</a></li>
+      </ul>
+      <!--right-nav-(cart-like)-->
+      <div class="right-nav">
+        <!--like----->
+        <a href="#" class="like">
+          <i class="far fa-heart"></i>
+          <span>3</span>
+        </a>
+        <!--cart----->
+        <a href="#" class="cart">
+          <i class="fas fa-shopping-cart"></i>
+          <span>2</span>
+        </a>
+      </div>
+    </nav>
+    <!--nav-end--------------------->
+    <!--==Search-banner=======================================-->
+    <section id="search-banner">
+      <!--bg--------->
+      <img src="bg-1.png" class="bg-1" alt="bg" />
+      <img src="bg-2.png" class="bg-2" alt="bg-2" />
+      <!--text------->
+      <div class="search-banner-text">
+        <h1>Get your daily needs</h1>
+        <strong>#Free Delivery#</strong>
+
+        <!--search-box------>
+        <form action="" class="search-box">
+          <!--icon------>
+          <i class="fas fa-search"></i>
+          <!--input----->
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search your  groceries"
+            name="search"
+            required
+          />
+          <!--btn------->
+          <input type="submit" class="search-btn" value="Search" />
+        </form>
+      </div>
+    </section>
+    <!--search-banner-end--------------->
+   
+    <!--==Products====================================-->
+    <section id="popular-product">
+      <!--heading----------->
+      <div class="product-heading">
+        <h3>Popular Product</h3>
+        <span>All</span>
+      </div>
+      <!--box-container------>
+      <div class="product-container">
+        <!--box---------->
+        <div class="product-box">
+          <img src="apple.png" alt="apple" />
+          <strong>Apple</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">Rs.50</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="chili.png" alt="apple" />
+          <strong>Chili</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">Rs.30</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="onion.png" alt="apple" />
+          <strong>Onion</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">Rs.80</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="patato.png" alt="apple" />
+          <strong>Patato</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">Rs.50</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="garlic.png" alt="apple" />
+          <strong>Garlic</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">Rs.120</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="tamato.png" alt="apple" />
+          <strong>Tomato</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">Rs.60</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--popular-product-end--------------------->
+    <!--Popular-bundle-pack===================================-->
+    <section id="popular-bundle-pack">
+      <!--heading-------------->
+      <div class="product-heading">
+        <h3>Popular Bundle Pack</h3>
+      </div>
+      <!--box-container------>
+      <div class="product-container">
+        <!--box---------->
+        <div class="product-box">
+          <img src="pack1.png" alt="pack" />
+          <strong>Big Pack</strong>
+          <span class="quantity">Lemone, Tomato, Patato,+4</span>
+          <span class="price">Rs.200</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="pack2.jpg" alt="apple" />
+          <strong>Large Pack</strong>
+          <span class="quantity">Lemone, Tomato, Patato,+2</span>
+          <span class="price">Rs.250</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="pack3.png" alt="apple" />
+          <strong>Small Pack</strong>
+          <span class="quantity">Lemone, Tomato, Patato</span>
+          <span class="price">Rs.350</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="pack1.png" alt="pack" />
+          <strong>Big Pack</strong>
+          <span class="quantity">Lemone, Tomato, Patato,+4</span>
+          <span class="price">Rs.450</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="pack2.jpg" alt="apple" />
+          <strong>Large Pack</strong>
+          <span class="quantity">Lemone, Tomato, Patato,+2</span>
+          <span class="price">Rs.345</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="pack3.png" alt="apple" />
+          <strong>Small Pack</strong>
+          <span class="quantity">Lemone, Tomato, Patato</span>
+          <span class="price">Rs.340</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--popular-bundle-pack-end-------------------------------->
+    <!--==Clients===============================================-->
+    <section id="clients">
+      <!--heading---------------->
+      <div class="client-heading">
+        <h3>say your opinion!!!</h3>
+      </div>
+      <!--box-container---------->
+      <div class="client-box-container">
+        <!--box------------->
+        <div class="client-box">
+          <!--==profile===-->
+          <div class="client-profile">
+             <!--img--->
+             <img src="client-3.jpg" alt="client" />
+            <!--text-->
+            <div class="profile-text">
+              <strong>Dharanisri</strong>
+            </div>
+          </div>
+          <!--==Rating======-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--==comments===-->
+          <p>
+            There are many websites now in india and the ease of getting vegies delivered home 
+            and the choices you have makes it more comfortable.
+          </p>
+        </div>
+        <!--box------------->
+        <div class="client-box">
+          <!--==profile===-->
+          <div class="client-profile">
+             <!--img--->
+             <img src="client-3.jpg" alt="client" />
+            <!--text-->
+            <div class="profile-text">
+              <strong>Akshayaa</strong>
+            </div>
+          </div>
+          <!--==Rating======-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--==comments===-->
+          <p>
+            emart is good ,it too had missing veges in delivered  order but refund was initated 
+            on informing .i have to be honest-shopping online is  a boon ,because i can sit at office 
+            and pick out everything i need and have to delivered  home at the time.
+          </p>
+          </p>
+        </div>
+        <!--box------------->
+        <div class="client-box">
+          <!--==profile===-->
+          <div class="client-profile">
+            <!--img--->
+            <img src="client-3.jpg" alt="client" />
+            <!--text-->
+            <div class="profile-text">
+              <strong>Apsana</strong>
+            </div>
+          </div>
+          <!--==Rating======-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class=></i>
+          </div>
+          <!--==comments===-->
+          <p>
+            ensuring the freshness and quality of vegetables when buying them online requires attention 
+            to several factors. In emart the vegies quality is good 
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--client-section-end---------->
